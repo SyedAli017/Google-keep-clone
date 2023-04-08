@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" >
+    <title>Google Keep Clone</title>
+    
+</head>
+<body>
+    <section class="main-section">
+        <header>
+            <img class="keep-logo" src="https://www.gstatic.com/images/branding/product/1x/keep_48dp.png" alt="">
+            <h1 class="keep-title">Keep</h1>
+
+        </header>
+        <div class="form-container">
+            <form class="form" autocomplete="off" >
+                <input type="text" placeholder="Title" class="note-title">
+                <input type="text" placeholder="Take a note..." class="note-text">
+                <div class="buttons">
+                    <button class="submit-btn" type="submit">Submit</button>
+                    <button class="close-btn" type="button">Close</button>
+                </div>
+            </form>
+            
+        </div>
+        <div class="notes"></div>
+        <div id="placeholder">
+            <i class="fa-regular fa-lightbulb"></i>
+            <p class="placeholder-text">Notes you add appear here...</p>
+            
+            
+        </div>
+
+    </section>
+    
+</body>
+</html>
