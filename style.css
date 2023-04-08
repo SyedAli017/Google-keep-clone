@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+    
+}
+
+body {
+    border: red 1px solid;
+}
+
+.main-section {
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+.header-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.keep-title {
+    color: #5f6368;
+    font-size: 28px;
+    padding-left: 5px;
+}
+
+.form-container {
+    border: 1px solid #d3d3d3;
+    border-radius: 10px;
+    box-shadow: 0 1px 2px 0 #a6a6a6, 0px 2px 5px 2px #8c8c8c;
+    margin: 30px auto 15px auto;
+    max-width: 500px;
+    transition-duration: 1sec;
+    transition-property: background, border, opacity, box-shadow, transform;
+    transition-timing-function: ease-in;
+}
+
+.form {
+    border: none;
+    margin: 2px;
+    border-radius: 8px;
+    transition-duration: 1sec;
+    transition-property: background, border, opacity, box-shadow, transform;
+    transition-timing-function: ease-in;
+}
+
+.form:focus,
+input:focus {
+    outline: none;
+}
+
+.buttons {
+    display:none;
+    text-align: right;
+}
+
+.submit-btn,
+.close-btn {
+    border-radius: 5px;
+    background-color: white;
+    margin: 30px 0;
+    padding: 8px 24px;
+    font-size: 15px;
+    font-weight: 500;
+    height: 35px;
+    border: none;
+}
+
+.submit-btn {
+    color: white;
+    background-color: #007bff;
+}
+
+.submit-btn:hover,
+.close-btn:hover {
+    filter: brightness(85%);
+    cursor: pointer;
+
+}
+
+
+.note-title {
+    display: none;
+    width: calc(100%-10px);
+    min-height: 45px;
+    margin: 0 5px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    border: 0;
+
+}
+
+.note-text {
+    width: calc(100%-10px);
+    min-height: 45px;
+    margin: 0 5px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+}
+
+.placeholder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+
+.fa-lightbulb {
+    margin: 20px;
+    font-size: 30px;
+    opacity: 40%;
+
+}
+
+.placeholder-text {
+    color: #80868b;
+    cursor: default;
+    font-size: 24px;
+    margin-bottom: 50px;
+    
+}
