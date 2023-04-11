@@ -155,8 +155,8 @@ class App {
     if (!event.target.matches(".fa-palette")) return;
     this.id = event.target.nextElementSibling.dataset.id;
     const noteCoords = event.target.getBoundingClientRect();
-    const horizontal = noteCoords.left;
-    const vertical = window.scrollY - 20;
+    const horizontal = noteCoords.left
+    const vertical = window.scrollY - 20
     this.$colorTooltip.style.transform = `translate(${horizontal}px, ${vertical}px)`;
     this.$colorTooltip.style.display = "flex";
   }
