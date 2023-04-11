@@ -1,35 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css" >
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Google Keep Clone</title>
-    
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="modal-section">
       <div class="modal-content">
-        <input class="modal-title" placeholder="Title" type="text">
-        <input class="modal-text" placeholder="Take a note..." type="text">
+        <input class="modal-title" placeholder="Title" type="text" />
+        <input class="modal-text" placeholder="Take a note..." type="text" />
         <button class="modal-close-btn" type="button">Close</button>
       </div>
     </div>
     <section class="main-section">
       <header>
-        <img class="header-logo" src="https://www.gstatic.com/images/branding/product/1x/keep_48dp.png" alt="Google keep logo">
+        <img
+          class="header-logo"
+          src="https://www.gstatic.com/images/branding/product/1x/keep_48dp.png"
+          alt="Google keep logo"
+        />
         <h2 class="header-title">Keep</h2>
       </header>
       <div class="form-section">
         <form class="form" autocomplete="off">
-          <input class="note-title" placeholder="Title" type="text">
-          <input class="note-text" placeholder="Take a note..." type="text">
+          <input class="note-title" placeholder="Title" type="text" />
+          <input class="note-text" placeholder="Take a note..." type="text" />
           <div class="form-btns">
             <button type="submit" class="submit-btn">Submit</button>
             <button type="button" class="close-btn">Close</button>
@@ -49,7 +61,6 @@
         <div class="color-option red" data-color="#f42c2c"></div>
         <div class="color-option pink" data-color="#ff99bb"></div>
         <div class="color-option blue" data-color="#b3d9ff"></div>
-
       </div>
     </section>
     <script src="app.js"></script>
